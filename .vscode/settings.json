@@ -1,5 +1,8 @@
 {
   "files.associations": {
     "stdio.h": "c"
+  },
+  "code-runner.executorMap": {  // Code Runner settings
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $fileNameWithoutExt && del $fileNameWithoutExt.exe"
   }
 }
