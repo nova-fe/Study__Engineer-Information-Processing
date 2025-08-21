@@ -1,21 +1,29 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.associations": {
     "stdio.h": "c"
   },
   "jdk.jdkhome": "c:\\Users\\DESKTOP\\Downloads\\OpenJDK-24",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
-        "path": "PowerShell.exe",
-        "args": ["-NoExit", "-Command", "chcp 65001"]
+      "path": "PowerShell.exe",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "chcp 65001"
+      ]
     },
     "Command Prompt": {
-        "path": "cmd.exe",
-        "args": ["/k", "chcp 65001"]
+      "path": "cmd.exe",
+      "args": [
+        "/k",
+        "chcp 65001"
+      ]
     }
   },
   "java.jdt.ls.vmargs": "-Dfile.encoding=utf-8 -noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
   "code-runner.executorMap": {
-      "java": "cd $dir && javac $fileName -encoding UTF-8 && java -Dfile.encoding=UTF-8 $fileNameWithoutExt"
+    "java": "cd $dir && javac $fileName -encoding UTF-8 && java -Dfile.encoding=UTF-8 $fileNameWithoutExt"
   },
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "code-runner.runInTerminal": true
